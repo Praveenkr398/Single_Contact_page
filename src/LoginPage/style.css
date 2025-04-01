@@ -1,0 +1,62 @@
+.page{
+    background-color: rgb(235, 253, 253);
+    width:400px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 10px gray;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    margin: auto ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.page h1{
+    font-size: 35px;
+    border-bottom: 2px solid black;
+offset: 10px;
+margin-bottom: 10px;
+padding-bottom: 10px;
+}
+.page h2{
+    font-size: 30px;
+    padding:10px;
+}
+.page span{
+    border-bottom: 2px solid blue;
+}
+
+.page h4 {
+    font-size: 15px;
+    margin: 10px;
+}
+.page h4 span {
+    font-size: 15px;
+    color: red;
+    border: 1px solid red;
+    padding: 2px 5px;
+    background-color: rgb(255, 247, 0);
+}
+
+button{
+    background-color:green ;
+    padding: 5px  10px;
+    font-size: 25px;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.out{
+    background-color: red;
+}
+
+.page input{
+    background-color: rgb(218, 214, 206);
+    font-size: 25px;
+    border: 1px solid gray;
+    color: blue;
+    outline: none;
+}

@@ -1,0 +1,110 @@
+.contactPage {
+    width: 100%;
+    height: 100vh;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    flex: auto;
+    box-shadow: 4px 4px 20px gray;
+}
+
+.heading {
+    font-size: 100px;
+    z-index: 1;
+}
+
+.heading::after {
+    content: "\1f612";
+    position: absolute;
+    left: 270px;
+    top: 80px;
+    z-index: -1;
+}
+
+form {
+    background-color: rgb(235, 231, 231);
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    box-shadow: -5px 5px 10px gray;
+    outline-offset: 5px;
+    border: 2px solid gray;
+}
+
+input,
+textarea {
+    z-index: 2;
+    margin: 5px;
+    padding: 10px 30px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px rgb(181, 181, 181);
+}
+
+textarea {
+    width: 97%;
+    appearance: none;
+    resize: none;
+    height: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input:hover,
+textarea:hover {
+    border: 1px solid blue;
+}
+
+.btns:after {
+    content: "\1f612";
+    font-size: 100px;
+    width: 10px;
+    position: absolute;
+    left: 500px;
+    bottom: 130px;
+    z-index: -11;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin: 20px 0px 0px;
+}
+
+.btns button:first-child{
+    background-color: green;
+    flex: 7;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btns button:first-child:hover{
+    background-color: rgb(14, 198, 14);
+}
+.btns button:last-child:hover{
+    background-color: rgb(198, 14, 14);
+}
+.btns button:last-child{
+    background-color: rgb(254, 0, 0);
+    border-radius: 5px;
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
