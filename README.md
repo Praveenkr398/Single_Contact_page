@@ -21,6 +21,9 @@ The **Single Page Contact Us** project is a React-based interactive contact form
 ## 📸 Screenshots
 ![Single Page Contact Us](https://github.com/user-attachments/assets/8dbcbe03-9ea0-4500-aa7e-9fe372c6c127)
 
+
+Category:- "Mini Project, React, Hooks, CSS, "
+
 ## 📂 Project Structure
 ```
 Single_Contact_page/
